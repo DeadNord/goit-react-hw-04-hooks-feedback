@@ -1,0 +1,16 @@
+.control {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #18c471;
+}
