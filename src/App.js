@@ -6,7 +6,7 @@ import Section from './components/feedback/section/Section';
 import Statistics from './components/feedback/statistics/Statistics';
 import Notification from './components/feedback/notification/Notification';
 
-function Feedback() {
+function App() {
   const [counterGood, setCounterGood] = useState(0);
   const [counterNeutral, setCounterNeutral] = useState(0);
   const [counterBad, setCounterBad] = useState(0);
@@ -54,5 +54,4 @@ function Feedback() {
     </>
   );
 }
-// }
-export default Feedback;
+export default App;
